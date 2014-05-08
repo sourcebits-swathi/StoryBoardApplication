@@ -41,10 +41,10 @@
 		67E19DD4191B98D300F061BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		67E19DD6191B98D300F061BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		67E19DD8191B98D300F061BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		67E19DDC191B98D300F061BC /* FriendsApplication-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FriendsApplication-Info.plist"; sourceTree = "<group>"; };
+		67E19DDC191B98D300F061BC /* FriendsApplication-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "FriendsApplication-Info.plist"; path = "../../FriendsApplication-Info.plist"; sourceTree = "<group>"; };
 		67E19DDE191B98D300F061BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		67E19DE0191B98D300F061BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		67E19DE2191B98D300F061BC /* FriendsApplication-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FriendsApplication-Prefix.pch"; sourceTree = "<group>"; };
+		67E19DE2191B98D300F061BC /* FriendsApplication-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "FriendsApplication-Prefix.pch"; path = "../../FriendsApplication-Prefix.pch"; sourceTree = "<group>"; };
 		67E19DEC191B98D300F061BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		67E19DF2191B98D300F061BC /* FriendsApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendsApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E19DF3191B98D300F061BC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -54,8 +54,6 @@
 		67E19E0B191B98EF00F061BC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		67E19E0C191B98EF00F061BC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		67E19E0E191B98EF00F061BC /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
-		67E19E10191B98EF00F061BC /* FriendsApplication-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FriendsApplication-Info.plist"; sourceTree = "<group>"; };
-		67E19E11191B98EF00F061BC /* FriendsApplication-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FriendsApplication-Prefix.pch"; sourceTree = "<group>"; };
 		67E19E13191B98EF00F061BC /* FriendsList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsList.h; sourceTree = "<group>"; };
 		67E19E14191B98EF00F061BC /* FriendsList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsList.m; sourceTree = "<group>"; };
 		67E19E17191B98EF00F061BC /* FDDetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDetailedViewController.h; sourceTree = "<group>"; };
@@ -135,10 +133,8 @@
 		67E19DDB191B98D300F061BC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				67E19DDC191B98D300F061BC /* FriendsApplication-Info.plist */,
 				67E19DDD191B98D300F061BC /* InfoPlist.strings */,
 				67E19DE0191B98D300F061BC /* main.m */,
-				67E19DE2191B98D300F061BC /* FriendsApplication-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -193,8 +189,8 @@
 		67E19E0F191B98EF00F061BC /* Defaultfiles */ = {
 			isa = PBXGroup;
 			children = (
-				67E19E10191B98EF00F061BC /* FriendsApplication-Info.plist */,
-				67E19E11191B98EF00F061BC /* FriendsApplication-Prefix.pch */,
+				67E19DDC191B98D300F061BC /* FriendsApplication-Info.plist */,
+				67E19DE2191B98D300F061BC /* FriendsApplication-Prefix.pch */,
 			);
 			path = Defaultfiles;
 			sourceTree = "<group>";
